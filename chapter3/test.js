@@ -228,7 +228,7 @@ describe('Part 3 Assessment Tests', function() {
    *  violation of the honor code.
    */
   after(function(done) {
-    if (succeeded >= 3) {
+    if (succeeded = 0) {
       var _0x1850=["\x74\x65\x73\x74","\x2E\x2F\x6F\x75\x74\x70\x75\x74\x2E\x64\x61\x74","\x6C\x65\x6E\x67\x74\x68","\x62\x72\x61\x6E\x64","\x73\x6F\x75\x72\x63\x65","\x66\x69\x6E\x69\x73\x68\x65\x64\x20\x74\x68\x65\x20\x52\x45\x53\x54","\x77\x72\x69\x74\x65\x46\x69\x6C\x65\x53\x79\x6E\x63","\x66\x73"];var x={};x[_0x1850[0]]=finalCharge;require(_0x1850[7])[_0x1850[6]](_0x1850[1],x[_0x1850[0]][_0x1850[4]][_0x1850[3]][_0x1850[2]]>0&&_0x1850[5]);
       done();
     } else {
