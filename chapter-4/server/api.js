@@ -43,7 +43,7 @@ module.exports = function(wagner) {
     };
   }));
 
-  /* Product API 117734 ok works*/
+  /* Product API 1177345 ok works*/
   api.get('/product/id/:id', wagner.invoke(function(Product) {
     return function(req, res) {
       Product.findOne({ _id: req.params.id },
