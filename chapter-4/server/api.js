@@ -26,6 +26,7 @@ module.exports = function(wagner) {
       });
     };
   }));
+  //test
 
   api.get('/category/parent/:id', wagner.invoke(function(Category) {
     return function(req, res) {
