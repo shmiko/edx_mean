@@ -43,7 +43,7 @@ module.exports = function(wagner) {
     };
   }));
 
-  /* Product API */
+  /* Product API  ok*/
   api.get('/product/id/:id', wagner.invoke(function(Product) {
     return function(req, res) {
       Product.findOne({ _id: req.params.id },
