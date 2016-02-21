@@ -27,6 +27,8 @@ module.exports = function(wagner) {
     };
   }));
 
+  //working
+
   api.get('/category/parent/:id', wagner.invoke(function(Category) {
     return function(req, res) {
       Category.
